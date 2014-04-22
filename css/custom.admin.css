@@ -1,0 +1,42 @@
+
+/*---------------------------------------------------------------------------------*/
+/*	Theme Options
+/*---------------------------------------------------------------------------------*/
+
+.ss-ot-heading {
+	font-size: 17px;
+	background-color: #fafafa;
+	padding: 20px;
+	color: #303030;
+	border: 1px solid #ddd;
+	box-sizing: border-box;
+}
+
+
+/*---------------------------------------------------------------------------------*/
+/*	meta-box
+/*---------------------------------------------------------------------------------*/
+
+.rwmb-text {
+	max-width: 100%;
+}
+#portfolio_post_options .rwmb-text {
+	width: 100%;
+	max-width: 310px;
+}
+.rwmb-heading-wrappe {
+	margin: 25px;
+}
+.rwmb-textarea {
+	max-width: 310px;
+}
+.rwmb-heading-wrapper {
+	margin-top: 30px !important;
+	margin-bottom: 30px !important;
+}
+.rwmb-heading-wrapper:first-of-type {
+	margin-top: 0 !important;
+}
+#post_format_options > .inside .rwmb-field {
+	display: none;
+}

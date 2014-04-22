@@ -1,0 +1,16 @@
+
+/* ====================================================================
+	Nivan Changelog
+======================================================================= */
+	
+Nivan - Version 1.0.1
+	
+	Added Horizontal mode to Spnoy Mosaic Gallery
+	- nivan-shortcodes.zip (updated)
+
+	Demo Data folder (updated)
+
+
+Nivan - Version 1.0
+
+	First Release

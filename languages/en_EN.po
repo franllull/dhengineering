@@ -1,0 +1,1431 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Nivan WordPress Theme\n"
+"POT-Creation-Date: 2014-03-11 22:50+0330\n"
+"PO-Revision-Date: 2014-03-11 22:50+0330\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:10
+msgid "404"
+msgstr ""
+
+#: ../404.php:12
+msgid "PAGE NOT FOUND"
+msgstr ""
+
+#: ../404.php:14
+msgid "BACK TO HOMEPAGE"
+msgstr ""
+
+#: ../archive.php:12 ../archive.php:16 ../archive.php:18 ../archive.php:20
+#: ../archive.php:24 ../archive.php:26
+msgid "Archive for "
+msgstr ""
+
+#: ../archive.php:14
+msgid "Posts Tagged "
+msgstr ""
+
+#: ../archive.php:22
+msgid "Author Archive"
+msgstr ""
+
+#: ../archive.php:24
+msgid "Portfolio Category"
+msgstr ""
+
+#: ../archive.php:26
+msgid "Portfolio Tags"
+msgstr ""
+
+#: ../archive.php:28
+msgid "Blog Archives"
+msgstr ""
+
+#: ../archive.php:47 ../index.php:31 ../search.php:23
+#: ../template-blog-classic-fullwidth.php:46
+#: ../template-blog-classic-sidebar.php:46
+#: ../template-blog-compact-fullwidth.php:45
+#: ../template-blog-compact-sidebar.php:45
+#: ../template-blog-grid-2col-sidebar.php:45 ../template-blog-grid-2col.php:45
+#: ../template-blog-grid-3col.php:45 ../template-blog-grid-4col.php:45
+#: ../template-blog-masonry-2col-sidebar.php:45
+#: ../template-blog-masonry-2col.php:45 ../template-blog-masonry-3col.php:45
+#: ../template-blog-masonry-4col.php:45
+#: ../template-blog-masonry-mix-3col.php:45
+#: ../template-blog-masonry-mix-4col.php:45
+#: ../template-portfolio-2col-nogutter.php:49
+#: ../template-portfolio-2col.php:49 ../template-portfolio-3col-full.php:52
+#: ../template-portfolio-3col-nogutter.php:49
+#: ../template-portfolio-3col.php:49 ../template-portfolio-4col-full.php:51
+#: ../template-portfolio-4col-nogutter.php:49
+#: ../template-portfolio-4col.php:49 ../template-portfolio-5col-full.php:51
+#: ../template-portfolio-5col-nogutter.php:49
+msgid "Not Found"
+msgstr ""
+
+#: ../comments.php:24
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: ../comments.php:41 ../lib/framework/ot-config.php:537
+msgid "Comments"
+msgstr ""
+
+#: ../comments.php:53
+msgid "Trackbacks for this post"
+msgstr ""
+
+#: ../comments.php:75
+msgid "Comments are closed."
+msgstr ""
+
+#: ../comments.php:90
+msgid "Name (required)"
+msgstr ""
+
+#: ../comments.php:91
+msgid "E-Mail (required)"
+msgstr ""
+
+#: ../comments.php:92
+msgid "Website"
+msgstr ""
+
+#: ../comments.php:97
+msgid "Your Message"
+msgstr ""
+
+#: ../comments.php:98
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: ../comments.php:99
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out &raquo;</a>"
+msgstr ""
+
+#: ../comments.php:102
+msgid "Leave a Comment"
+msgstr ""
+
+#: ../comments.php:103
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: ../comments.php:104
+msgid "Cancel Reply"
+msgstr ""
+
+#: ../comments.php:105
+msgid "Post Comment"
+msgstr ""
+
+#: ../header.php:78
+msgid ""
+"You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
+"browsehappy.com/\">upgrade your browser</a> to improve your experience."
+msgstr ""
+
+#: ../header.php:83
+msgid "Please Turn On JavaScript For Seeing This Website Properly."
+msgstr ""
+
+#: ../header.php:106
+msgid "Please setup \"Main Navigation\" in Dashboard > Appearance > Menus."
+msgstr ""
+
+#: ../header.php:112
+msgid "MENU"
+msgstr ""
+
+#: ../lib/framework/option-tree/ot-loader.php:682
+msgid "Send to OptionTree"
+msgstr ""
+
+#: ../lib/framework/ot-config.php:17
+msgid "-- Choose One --"
+msgstr ""
+
+#: ../lib/framework/ot-config.php:22
+msgid "twitter"
+msgstr ""
+
+#: ../lib/framework/ot-config.php:27
+msgid "facebook"
+msgstr ""
+
+#: ../lib/framework/ot-config.php:32 ../lib/framework/ot-config.php:122
+msgid "Google Plus"
+msgstr ""
+
+#: ../lib/framework/ot-config.php:37
+msgid "flickr"
+msgstr ""
+
+#: ../lib/framework/ot-config.php:42
+msgid "picassa"
+msgstr ""
+
+#: ../lib/framework/ot-config.php:47
+msgid "dribbble"
+msgstr ""
+
+#: ../lib/framework/ot-config.php:52
+msgid "feed"
+msgstr ""
+
+#: ../lib/framework/ot-config.php:57
+msgid "sound-cloud"
+msgstr ""
+
+#: ../lib/framework/ot-config.php:62
+msgid "instagram"
+msgstr ""
+
+#: ../lib/framework/ot-config.php:67
+msgid "reddit"
+msgstr ""
+
+#: ../lib/framework/ot-config.php:72
+msgid "email"
+msgstr ""
+
+#: ../lib/framework/ot-config.php:77
+msgid "tumblr"
+msgstr ""
+
+#: ../lib/framework/ot-config.php:82
+msgid "linkedin"
+msgstr ""
+
+#: ../lib/framework/ot-config.php:87
+msgid "deviantart"
+msgstr ""
+
+#: ../lib/framework/ot-config.php:92
+msgid "pinterest"
+msgstr ""
+
+#: ../lib/framework/ot-config.php:97
+msgid "youtube"
+msgstr ""
+
+#: ../lib/framework/ot-config.php:102
+msgid "vimeo"
+msgstr ""
+
+#: ../lib/framework/ot-config.php:112
+msgid "Facebook"
+msgstr ""
+
+#: ../lib/framework/ot-config.php:117
+msgid "Twitter"
+msgstr ""
+
+#: ../lib/framework/ot-config.php:127
+msgid "Reddit"
+msgstr ""
+
+#: ../lib/framework/ot-config.php:132
+msgid "Linkedin"
+msgstr ""
+
+#: ../lib/framework/ot-config.php:137
+msgid "Email"
+msgstr ""
+
+#: ../lib/framework/ot-config.php:211
+msgid "Responsive (Tablets/Phones)"
+msgstr ""
+
+#: ../lib/framework/ot-config.php:212
+msgid ""
+"<b>Note:</b> Disabling respinsive will only work on actual devices not on "
+"desktop computers."
+msgstr ""
+
+#: ../lib/framework/ot-config.php:221
+msgid "Allow comments on pages"
+msgstr ""
+
+#: ../lib/framework/ot-config.php:222
+msgid ""
+"Show/Hide comments on pages.<br/><b>Note:</b> Page specific settings get "
+"overwritten."
+msgstr ""
+
+#: ../lib/framework/ot-config.php:231
+msgid "Animation on mobile devices (Tablets/Phones)"
+msgstr ""
+
+#: ../lib/framework/ot-config.php:232
+msgid ""
+"<b>Note:</b> It's highly recommended that you disable animation on mobile "
+"devices due to the performance issues that may result device's browser to "
+"crash."
+msgstr ""
+
+#: ../lib/framework/ot-config.php:241
+msgid "Navigation Scroll Speed"
+msgstr ""
+
+#: ../lib/framework/ot-config.php:242
+msgid "Enter scroll speed of one page navigation in milliseconds."
+msgstr ""
+
+#: ../lib/framework/ot-config.php:249
+msgid "WordPress JPEG Image Compression"
+msgstr ""
+
+#: ../lib/framework/ot-config.php:250
+msgid ""
+"Increase or Decrease WordPress JPEG Image Compression. (Higher = Better "
+"Image Quality) (Default: 90)<br/><br/>This will only apply to thumbnails and "
+"images generated after you have changed this number. If you want this to "
+"apply to existing images and thumbnails, you should use a plugin like <a "
+"target=\"_blank\" href=\"http://wordpress.org/plugins/regenerate-thumbnails/"
+"\">\"Regenerate Thumbnails\"</a>"
+msgstr ""
+
+#: ../lib/framework/ot-config.php:265
+msgid "Favicon (16x16)"
+msgstr ""
+
+#: ../lib/framework/ot-config.php:266
+msgid ""
+"Upload your Favicon<br>(16x16px ico/png - use <a href=\"http://www.favicon."
+"cc/\" target=\"_blank\">\"favicon.cc\"</a> to make sure it's fully "
+"compatible)"
+msgstr ""
+
+#: ../lib/framework/ot-config.php:272
+msgid "Apple iPhone Icon Upload (57x57)"
+msgstr ""
+
+#: ../lib/framework/ot-config.php:273
+msgid "Upload your Apple iPhone Icon (57px57px png)"
+msgstr ""
+
+#: ../lib/framework/ot-config.php:279
+msgid "Apple iPhone Retina Icon Upload (114x114)"
+msgstr ""
+
+#: ../lib/framework/ot-config.php:280
+msgid "Upload your Apple iPhone Retina Icon (114px114px png)"
+msgstr ""
+
+#: ../lib/framework/ot-config.php:286
+msgid "Apple iPad Icon Upload (72x72)"
+msgstr ""
+
+#: ../lib/framework/ot-config.php:287
+msgid "Upload your Apple iPad Icon (72px72px png)"
+msgstr ""
+
+#: ../lib/framework/ot-config.php:293
+msgid "Apple iPad Retina Icon Upload (144x144)"
+msgstr ""
+
+#: ../lib/framework/ot-config.php:294
+msgid "Upload your Apple iPad Retina (144px144px png)"
+msgstr ""
+
+#: ../lib/framework/ot-config.php:306
+msgid "Logo"
+msgstr ""
+
+#: ../lib/framework/ot-config.php:307
+msgid "Upload your logo here."
+msgstr ""
+
+#: ../lib/framework/ot-config.php:313
+msgid "Logo (.svg) - Optional"
+msgstr ""
+
+#: ../lib/framework/ot-config.php:314
+msgid ""
+"Upload your logo for (HiDPI) displays in SVG format.<br><br><b>Note:</b> "
+"Your SVG logo should have the same name as your normal logo, For example if "
+"your logo is 'website-logo.png' your svg logo should be 'website-logo.svg'."
+msgstr ""
+
+#: ../lib/framework/ot-config.php:320
+msgid "Sticky Header"
+msgstr ""
+
+#: ../lib/framework/ot-config.php:321
+msgid "Enable/Disable Sticky Header."
+msgstr ""
+
+#: ../lib/framework/ot-config.php:336
+msgid "Footer Text"
+msgstr ""
+
+#: ../lib/framework/ot-config.php:337
+msgid "Enter your footer text here."
+msgstr ""
+
+#: ../lib/framework/ot-config.php:345
+msgid "Social Icons"
+msgstr ""
+
+#: ../lib/framework/ot-config.php:352
+msgid "Link"
+msgstr ""
+
+#: ../lib/framework/ot-config.php:359
+#: ../lib/includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1299
+msgid "Type"
+msgstr ""
+
+#: ../lib/framework/ot-config.php:376 ../lib/functions/meta-box.php:347
+msgid "General"
+msgstr ""
+
+#: ../lib/framework/ot-config.php:382
+msgid "Accent Color 1"
+msgstr ""
+
+#: ../lib/framework/ot-config.php:389
+msgid "Accent Color 2"
+msgstr ""
+
+#: ../lib/framework/ot-config.php:396 ../lib/functions/meta-box.php:501
+msgid "Text Color"
+msgstr ""
+
+#: ../lib/framework/ot-config.php:403
+msgid "Link Color"
+msgstr ""
+
+#: ../lib/framework/ot-config.php:410
+msgid "Link Hover Color"
+msgstr ""
+
+#: ../lib/framework/ot-config.php:417 ../lib/functions/meta-box.php:494
+msgid "Background Color"
+msgstr ""
+
+#: ../lib/framework/ot-config.php:425
+msgid "Main Menu"
+msgstr ""
+
+#: ../lib/framework/ot-config.php:431
+msgid "Main Menu Text Color"
+msgstr ""
+
+#: ../lib/framework/ot-config.php:438
+msgid "Main Menu Hover Color"
+msgstr ""
+
+#: ../lib/framework/ot-config.php:445
+msgid "Main Menu Background Color"
+msgstr ""
+
+#: ../lib/framework/ot-config.php:453
+msgid "Form Fields"
+msgstr ""
+
+#: ../lib/framework/ot-config.php:459
+msgid "Field Text Color"
+msgstr ""
+
+#: ../lib/framework/ot-config.php:466
+msgid "Field Placeholder Color"
+msgstr ""
+
+#: ../lib/framework/ot-config.php:473
+msgid "Field Background Color"
+msgstr ""
+
+#: ../lib/framework/ot-config.php:487
+msgid "Portfolio Sharing"
+msgstr ""
+
+#: ../lib/framework/ot-config.php:488
+msgid "Show/Hide Sharing buttons on portfolio single pages."
+msgstr ""
+
+#: ../lib/framework/ot-config.php:505
+msgid "Blog Sharing"
+msgstr ""
+
+#: ../lib/framework/ot-config.php:506
+msgid "Show/Hide Sharing buttons on blog single pages."
+msgstr ""
+
+#: ../lib/framework/ot-config.php:529
+msgid "Portfolio URL Slug"
+msgstr ""
+
+#: ../lib/framework/ot-config.php:530
+msgid ""
+"By changing this option you can change the \"portfolio\" slug in your URL."
+"<br><br><b>Don't change this unless you know what you're doing.</b>"
+msgstr ""
+
+#: ../lib/framework/ot-config.php:538
+msgid ""
+"Note: If enable, Make sure the discussion filed is checked when you're "
+"adding/editing your Portfolio post."
+msgstr ""
+
+#: ../lib/framework/ot-config.php:545
+msgid "Related Portfolios"
+msgstr ""
+
+#: ../lib/framework/ot-config.php:546
+msgid "Enable/Disable Related Projects in portfolio single post."
+msgstr ""
+
+#: ../lib/framework/ot-config.php:559 ../lib/functions/meta-box.php:450
+msgid "Readmore"
+msgstr ""
+
+#: ../lib/framework/ot-config.php:560
+msgid "Show/Hide Readmore link on blog pages."
+msgstr ""
+
+#: ../lib/framework/ot-config.php:567
+msgid "Open in New Tab"
+msgstr ""
+
+#: ../lib/framework/ot-config.php:568
+msgid ""
+"Enable/Disable target=\"_blank\" on Blog Posts.<br><br><b>Note:</b> For "
+"providing a better user experiance for your visitors it is recommended to "
+"turn this option off."
+msgstr ""
+
+#: ../lib/framework/ot-config.php:581
+msgid "Tracking Code"
+msgstr ""
+
+#: ../lib/framework/ot-config.php:582
+msgid ""
+"Place your Google Analytics Code (or other) here.<br><br><b>Note:</b> Place "
+"Your tracking code should contain a script tag, Because your code would be "
+"injected directly without any changes."
+msgstr ""
+
+#: ../lib/framework/ot-config.php:589
+msgid "Custom CSS"
+msgstr ""
+
+#: ../lib/framework/ot-config.php:590
+msgid ""
+"Place your custom styling here, Useful for customzing the theme."
+"<br><br><b>Note:</b> Your codes would be placed in a style tag."
+msgstr ""
+
+#: ../lib/framework/ot-config.php:597
+msgid "Custom JS"
+msgstr ""
+
+#: ../lib/framework/ot-config.php:598
+msgid ""
+"Place your custom JavaScript codes here, Useful for customzing the theme."
+"<br><br><b>Note:</b> Your codes would be placed in a script tag."
+msgstr ""
+
+#: ../lib/framework/ot-config.php:605
+msgid "Before &lt;/head&gt; tag"
+msgstr ""
+
+#: ../lib/framework/ot-config.php:606 ../lib/framework/ot-config.php:614
+msgid ""
+"Place your custom codes here, Useful for customzing the theme."
+"<br><br><b>Note:</b> Your codes would be injected directly without any "
+"changes."
+msgstr ""
+
+#: ../lib/framework/ot-config.php:613
+msgid "Before &lt;/body&gt; tag"
+msgstr ""
+
+#: ../lib/functions/helpers.php:185
+msgid "Home"
+msgstr ""
+
+#: ../lib/functions/helpers.php:244
+msgid "404 - Page not Found"
+msgstr ""
+
+#: ../lib/functions/helpers.php:245 ../searchform.php:3
+msgid "Search"
+msgstr ""
+
+#: ../lib/functions/menus.php:10
+msgid "Main Navigation"
+msgstr ""
+
+#: ../lib/functions/meta-box.php:38
+msgid "Post Gallery"
+msgstr ""
+
+#: ../lib/functions/meta-box.php:44
+msgid "URL"
+msgstr ""
+
+#: ../lib/functions/meta-box.php:51
+msgid "Quote Source"
+msgstr ""
+
+#: ../lib/functions/meta-box.php:58
+msgid "Quote Content"
+msgstr ""
+
+#: ../lib/functions/meta-box.php:65
+msgid "Audio"
+msgstr ""
+
+#: ../lib/functions/meta-box.php:67
+msgid "Audio URL (Soundcloud, ...)"
+msgstr ""
+
+#: ../lib/functions/meta-box.php:72
+msgid "Video"
+msgstr ""
+
+#: ../lib/functions/meta-box.php:74
+msgid "Video URL (Youtube, Vimeo, ...)"
+msgstr ""
+
+#: ../lib/functions/meta-box.php:98
+msgid "Post Single Layout"
+msgstr ""
+
+#: ../lib/functions/meta-box.php:108
+msgid "Masonry Mix 3 Columns"
+msgstr ""
+
+#: ../lib/functions/meta-box.php:112
+msgid "One Third"
+msgstr ""
+
+#: ../lib/functions/meta-box.php:113
+msgid "Two Third"
+msgstr ""
+
+#: ../lib/functions/meta-box.php:115
+msgid "Set the blog post size for 'Masonry Mix 3 Columns' template."
+msgstr ""
+
+#: ../lib/functions/meta-box.php:120
+msgid "Masonry Mix 4 Columns"
+msgstr ""
+
+#: ../lib/functions/meta-box.php:124
+msgid "One Fourth"
+msgstr ""
+
+#: ../lib/functions/meta-box.php:125
+msgid "Two Fourth"
+msgstr ""
+
+#: ../lib/functions/meta-box.php:127
+msgid "Set the blog post size for 'Masonry Mix 4 Columns' template."
+msgstr ""
+
+#: ../lib/functions/meta-box.php:150
+msgid "Page Header"
+msgstr ""
+
+#: ../lib/functions/meta-box.php:152
+msgid "Show/Hide Page Header."
+msgstr ""
+
+#: ../lib/functions/meta-box.php:161
+msgid "Page Header Effect"
+msgstr ""
+
+#: ../lib/functions/meta-box.php:163
+msgid ""
+"Enable/Disable Effect on page header.<br><b>Note:</b> This will only work on "
+"the Homepage."
+msgstr ""
+
+#: ../lib/functions/meta-box.php:172
+msgid "Breadcrumbs"
+msgstr ""
+
+#: ../lib/functions/meta-box.php:174
+msgid "Show/Hide Breadcrumbs."
+msgstr ""
+
+#: ../lib/functions/meta-box.php:183
+msgid "Page Title"
+msgstr ""
+
+#: ../lib/functions/meta-box.php:206 ../lib/functions/meta-box.php:271
+msgid "Posts Per Page"
+msgstr ""
+
+#: ../lib/functions/meta-box.php:214 ../lib/functions/meta-box.php:279
+msgid "Categories not to show"
+msgstr ""
+
+#: ../lib/functions/meta-box.php:216 ../lib/functions/meta-box.php:281
+msgid "Select the categories you wish not to dispaly on this blog page."
+msgstr ""
+
+#: ../lib/functions/meta-box.php:260
+msgid "Filter Bar"
+msgstr ""
+
+#: ../lib/functions/meta-box.php:262
+msgid ""
+"Show/Hide Portfolio filter bar.<br/><b>Note: This will only works on the "
+"templates that supprots Filter Bar.</b>"
+msgstr ""
+
+#: ../lib/functions/meta-box.php:314
+msgid "Featured Video"
+msgstr ""
+
+#: ../lib/functions/meta-box.php:339
+msgid "Portfolio Options"
+msgstr ""
+
+#: ../lib/functions/meta-box.php:351
+msgid "Link to"
+msgstr ""
+
+#: ../lib/functions/meta-box.php:353
+msgid "Link your Portfolio to another web address."
+msgstr ""
+
+#: ../lib/functions/meta-box.php:359
+msgid "Portfolio Single"
+msgstr ""
+
+#: ../lib/functions/meta-box.php:364 ../lib/functions/meta-box.php:405
+msgid "Layout"
+msgstr ""
+
+#: ../lib/functions/meta-box.php:374
+msgid "Gallery"
+msgstr ""
+
+#: ../lib/functions/meta-box.php:381
+msgid "Additional Info"
+msgstr ""
+
+#: ../lib/functions/meta-box.php:385
+msgid "Title"
+msgstr ""
+
+#: ../lib/functions/meta-box.php:391
+msgid "List Items"
+msgstr ""
+
+#: ../lib/functions/meta-box.php:400
+msgid "Spnoy Mosaic Gallery"
+msgstr ""
+
+#: ../lib/functions/meta-box.php:417
+msgid "Thumbnail"
+msgstr ""
+
+#: ../lib/functions/meta-box.php:423
+msgid "Caption"
+msgstr ""
+
+#: ../lib/functions/meta-box.php:424
+msgid "Enter the mosaic's caption, leave it empty to disable."
+msgstr ""
+
+#: ../lib/functions/meta-box.php:430
+msgid "Caption color"
+msgstr ""
+
+#: ../lib/functions/meta-box.php:436
+msgid "Hover"
+msgstr ""
+
+#: ../lib/functions/meta-box.php:437
+msgid "Enter the mosaic's hover description, leave it empty to disable."
+msgstr ""
+
+#: ../lib/functions/meta-box.php:443
+msgid "Always on hover"
+msgstr ""
+
+#: ../lib/functions/meta-box.php:444
+msgid "Enable/Disable Always on hover state."
+msgstr ""
+
+#: ../lib/functions/meta-box.php:451
+msgid "Enable/Disable Readmore link."
+msgstr ""
+
+#: ../lib/functions/meta-box.php:457
+msgid "Complete Link"
+msgstr ""
+
+#: ../lib/functions/meta-box.php:458
+msgid ""
+"Enable/Disable Whether you want your mosaic to be comepletly as a link or "
+"not.<br><b>Note:</b> Readmore or Compelete Link can not be enabled at the "
+"same time together."
+msgstr ""
+
+#: ../lib/functions/meta-box.php:464
+msgid "Background color"
+msgstr ""
+
+#: ../lib/functions/meta-box.php:470
+msgid "Text color"
+msgstr ""
+
+#: ../lib/functions/meta-box.php:487
+msgid "Related Options"
+msgstr ""
+
+#: ../lib/functions/meta-box.php:495
+msgid "Select the page background color."
+msgstr ""
+
+#: ../lib/functions/meta-box.php:502
+msgid "Select the page text color."
+msgstr ""
+
+#: ../lib/functions/meta-box.php:508
+msgid "Background Image"
+msgstr ""
+
+#: ../lib/functions/meta-box.php:509
+msgid ""
+"Select the page background image. <br/> Note: This option ignores selected "
+"background color."
+msgstr ""
+
+#: ../lib/functions/meta-box.php:515
+msgid "Repeatable Background Image"
+msgstr ""
+
+#: ../lib/functions/meta-box.php:516
+msgid "Select whether you want your background image to be repeatable or not."
+msgstr ""
+
+#: ../lib/functions/meta-box.php:522
+msgid "Parallax Effect"
+msgstr ""
+
+#: ../lib/functions/meta-box.php:523
+msgid ""
+"Enable Parallax Effect for your background image.<br/><b>Note: Do not use "
+"this effect on long pages or with images with low height.</b>"
+msgstr ""
+
+#: ../lib/functions/meta-box.php:530
+msgid "Home's section spacing"
+msgstr ""
+
+#: ../lib/functions/meta-box.php:534
+msgid "Inner Space from top"
+msgstr ""
+
+#: ../lib/functions/meta-box.php:536
+msgid "Section's inner space from top. (px)"
+msgstr ""
+
+#: ../lib/functions/meta-box.php:541
+msgid "Inner Space from bottom"
+msgstr ""
+
+#: ../lib/functions/meta-box.php:543
+msgid "Section's inner space from bottom. (px)"
+msgstr ""
+
+#: ../lib/functions/meta-box.php:548
+msgid "Outer Space from top"
+msgstr ""
+
+#: ../lib/functions/meta-box.php:550
+msgid ""
+"Section's Outer space from top. (px)<br>Handy for deeper level of "
+"customization."
+msgstr ""
+
+#: ../lib/functions/meta-box.php:555
+msgid "Outer Space from bottom"
+msgstr ""
+
+#: ../lib/functions/meta-box.php:557
+msgid ""
+"Section's Outer space from bottom. (px)<br>Handy for deeper level of "
+"customization."
+msgstr ""
+
+#: ../lib/functions/meta-box.php:580
+msgid "Sidebars"
+msgstr ""
+
+#: ../lib/functions/meta-box.php:587
+msgid "Select a sidebar"
+msgstr ""
+
+#: ../lib/functions/meta-box.php:590
+msgid ""
+"Select the sidebar you wish to display on this page.<br/><b>This will only "
+"work on the pages that support Sidebar.</b>"
+msgstr ""
+
+#: ../lib/functions/ot-meta-boxes.php:20
+msgid "Pricing Table Name"
+msgstr ""
+
+#: ../lib/functions/ot-meta-boxes.php:21
+msgid ""
+"This <b>unique</b> name will be used in shortcode to show your Prcing Table."
+msgstr ""
+
+#: ../lib/functions/ot-meta-boxes.php:27
+msgid "Plans"
+msgstr ""
+
+#: ../lib/functions/ot-meta-boxes.php:28
+msgid ""
+"Use the button on the left side to create a new plan for your pricing table."
+msgstr ""
+
+#: ../lib/functions/ot-meta-boxes.php:41
+msgid "Price"
+msgstr ""
+
+#: ../lib/functions/ot-meta-boxes.php:46
+msgid "Price Unit"
+msgstr ""
+
+#: ../lib/functions/ot-meta-boxes.php:51
+msgid "Price Subtitle"
+msgstr ""
+
+#: ../lib/functions/ot-meta-boxes.php:57
+msgid "Row 1"
+msgstr ""
+
+#: ../lib/functions/ot-meta-boxes.php:62
+msgid "Row 2"
+msgstr ""
+
+#: ../lib/functions/ot-meta-boxes.php:67
+msgid "Row 3"
+msgstr ""
+
+#: ../lib/functions/ot-meta-boxes.php:72
+msgid "Row 4"
+msgstr ""
+
+#: ../lib/functions/ot-meta-boxes.php:77
+msgid "Row 5"
+msgstr ""
+
+#: ../lib/functions/ot-meta-boxes.php:82
+msgid "Row 6"
+msgstr ""
+
+#: ../lib/functions/ot-meta-boxes.php:87
+msgid "Row 7"
+msgstr ""
+
+#: ../lib/functions/ot-meta-boxes.php:92
+msgid "Row 8"
+msgstr ""
+
+#: ../lib/functions/ot-meta-boxes.php:97
+msgid "Row 9"
+msgstr ""
+
+#: ../lib/functions/ot-meta-boxes.php:102
+msgid "Row 10"
+msgstr ""
+
+#: ../lib/functions/ot-meta-boxes.php:107
+msgid "Show Button"
+msgstr ""
+
+#: ../lib/functions/ot-meta-boxes.php:113
+msgid "Button Text"
+msgstr ""
+
+#: ../lib/functions/ot-meta-boxes.php:119
+msgid "Button Link"
+msgstr ""
+
+#: ../lib/functions/ot-meta-boxes.php:126
+msgid "Featured"
+msgstr ""
+
+#: ../lib/functions/others.php:103
+msgid "Anonymous"
+msgstr ""
+
+#: ../lib/functions/others.php:105
+msgid " Replied to "
+msgstr ""
+
+#: ../lib/functions/others.php:112
+msgid "[Reply]"
+msgstr ""
+
+#: ../lib/functions/others.php:118
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../lib/functions/plugins.php:69
+#: ../lib/includes/tgm-plugin-activation/class-tgm-plugin-activation.php:164
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../lib/functions/plugins.php:70
+#: ../lib/includes/tgm-plugin-activation/class-tgm-plugin-activation.php:165
+msgid "Install Plugins"
+msgstr ""
+
+#: ../lib/functions/plugins.php:71
+#: ../lib/includes/tgm-plugin-activation/class-tgm-plugin-activation.php:166
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: ../lib/functions/plugins.php:72
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../lib/functions/plugins.php:83
+#: ../lib/includes/tgm-plugin-activation/class-tgm-plugin-activation.php:178
+#: ../lib/includes/tgm-plugin-activation/class-tgm-plugin-activation.php:490
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../lib/functions/plugins.php:84
+#: ../lib/includes/tgm-plugin-activation/class-tgm-plugin-activation.php:179
+#: ../lib/includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1846
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../lib/functions/plugins.php:85
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: ../lib/functions/sidebars.php:15
+msgid "Primary Sidebar"
+msgstr ""
+
+#: ../lib/functions/sidebars.php:17
+msgid "These are widgets for the Primary Sidebar."
+msgstr ""
+
+#: ../lib/functions/sidebars.php:30
+msgid "Footer Sidebar"
+msgstr ""
+
+#: ../lib/functions/sidebars.php:32
+msgid "These are widgets for the Footer Sidebar."
+msgstr ""
+
+#: ../lib/functions/sidebars.php:45
+msgid "Second Sidebar"
+msgstr ""
+
+#: ../lib/functions/sidebars.php:47
+msgid "These are widgets for the Second Sidebar."
+msgstr ""
+
+#: ../lib/functions/sidebars.php:59
+msgid "Third Sidebar"
+msgstr ""
+
+#: ../lib/functions/sidebars.php:61
+msgid "These are widgets for the Third Sidebar."
+msgstr ""
+
+#: ../lib/functions/sidebars.php:73
+msgid "Fourth Sidebar"
+msgstr ""
+
+#: ../lib/functions/sidebars.php:75
+msgid "These are widgets for the Fourth Sidebar."
+msgstr ""
+
+#: ../lib/functions/sidebars.php:87
+msgid "Fifth Sidebar"
+msgstr ""
+
+#: ../lib/functions/sidebars.php:89
+msgid "These are widgets for the Fifth Sidebar."
+msgstr ""
+
+#: ../lib/includes/meta-box/inc/field.php:185
+msgid "+"
+msgstr ""
+
+#: ../lib/includes/meta-box/inc/field.php:202
+msgid "&#8211;"
+msgstr ""
+
+#: ../lib/includes/meta-box/inc/fields/button.php:35
+msgid "Click me"
+msgstr ""
+
+#: ../lib/includes/meta-box/inc/fields/file-advanced.php:23
+msgid "Select Files"
+msgstr ""
+
+#: ../lib/includes/meta-box/inc/fields/file-input.php:17
+msgid "Select File"
+msgstr ""
+
+#: ../lib/includes/meta-box/inc/fields/file-input.php:40
+msgid "Select"
+msgstr ""
+
+#: ../lib/includes/meta-box/inc/fields/file-input.php:42
+msgid "Remove"
+msgstr ""
+
+#: ../lib/includes/meta-box/inc/fields/file.php:19
+#, php-format
+msgid "You may only upload maximum %d file"
+msgstr ""
+
+#: ../lib/includes/meta-box/inc/fields/file.php:20
+#, php-format
+msgid "You may only upload maximum %d files"
+msgstr ""
+
+#: ../lib/includes/meta-box/inc/fields/file.php:70
+msgid "Error: Cannot delete file"
+msgstr ""
+
+#: ../lib/includes/meta-box/inc/fields/image-advanced.php:22
+msgid "Select Images"
+msgstr ""
+
+#: ../lib/includes/meta-box/inc/fields/map.php:48
+msgid "Find Address"
+msgstr ""
+
+#: ../lib/includes/meta-box/inc/fields/oembed.php:54
+msgid "Embed HTML not available."
+msgstr ""
+
+#: ../lib/includes/meta-box/inc/fields/oembed.php:76
+msgid "Preview"
+msgstr ""
+
+#: ../lib/includes/meta-box/inc/fields/post.php:52
+msgid "Post"
+msgstr ""
+
+#: ../lib/includes/meta-box/inc/fields/post.php:66
+#: ../lib/includes/meta-box/inc/fields/taxonomy.php:40
+#: ../lib/includes/meta-box/inc/fields/user.php:62
+#, php-format
+msgid "Select a %s"
+msgstr ""
+
+#: ../lib/includes/meta-box/inc/fields/user.php:54
+msgid "User"
+msgstr ""
+
+#: ../lib/includes/meta-box/inc/meta-box.php:241
+msgid "Please correct the errors highlighted below and try again."
+msgstr ""
+
+#: ../lib/includes/tgm-plugin-activation/class-tgm-plugin-activation.php:167
+msgid "Something went wrong."
+msgstr ""
+
+#: ../lib/includes/tgm-plugin-activation/class-tgm-plugin-activation.php:180
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../lib/includes/tgm-plugin-activation/class-tgm-plugin-activation.php:517
+#: ../lib/includes/tgm-plugin-activation/class-tgm-plugin-activation.php:2058
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../lib/includes/tgm-plugin-activation/class-tgm-plugin-activation.php:545
+#, php-format
+msgid "The following plugin was activated successfully: %s."
+msgstr ""
+
+#: ../lib/includes/tgm-plugin-activation/class-tgm-plugin-activation.php:704
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../lib/includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1091
+msgid "External Link"
+msgstr ""
+
+#: ../lib/includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1096
+msgid "Private Repository"
+msgstr ""
+
+#: ../lib/includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1099
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../lib/includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1103
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../lib/includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1106
+msgid "Required"
+msgstr ""
+
+#: ../lib/includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1106
+msgid "Recommended"
+msgstr ""
+
+#: ../lib/includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1109
+msgid "Not Installed"
+msgstr ""
+
+#: ../lib/includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1111
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../lib/includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1281
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: ../lib/includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1297
+msgid "Plugin"
+msgstr ""
+
+#: ../lib/includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1298
+msgid "Source"
+msgstr ""
+
+#: ../lib/includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1300
+msgid "Status"
+msgstr ""
+
+#: ../lib/includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1318
+msgid "Install"
+msgstr ""
+
+#: ../lib/includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1319
+msgid "Activate"
+msgstr ""
+
+#: ../lib/includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1829
+msgid "Install package not available."
+msgstr ""
+
+#: ../lib/includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1830
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: ../lib/includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1831
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: ../lib/includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1832
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: ../lib/includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1833
+msgid "Plugin install failed."
+msgstr ""
+
+#: ../lib/includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1834
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: ../lib/includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1845
+msgid "Plugin activation failed."
+msgstr ""
+
+#: ../lib/includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1955
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: ../lib/includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1956
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../lib/includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1956
+#: ../lib/includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1965
+msgid "Show Details"
+msgstr ""
+
+#: ../lib/includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1956
+#: ../lib/includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1965
+msgid "Hide Details"
+msgstr ""
+
+#: ../lib/includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1957
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../lib/includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1958
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../lib/includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1962
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: ../lib/includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1963
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: ../lib/includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1964
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../lib/includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1965
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: ../lib/includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1966
+msgid "All installations have been completed."
+msgstr ""
+
+#: ../lib/includes/tgm-plugin-activation/class-tgm-plugin-activation.php:1967
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../lib/template-parts/blog-classic-fullwidth/blog-footer.php:9
+#: ../lib/template-parts/blog-classic-sidebar/blog-footer.php:9
+msgid "READ MORE"
+msgstr ""
+
+#: ../lib/template-parts/blog-classic-fullwidth/blog-header.php:14
+#: ../lib/template-parts/blog-classic-fullwidth/single-header.php:8
+#: ../lib/template-parts/blog-classic-sidebar/blog-header.php:14
+#: ../lib/template-parts/blog-classic-sidebar/single-header.php:8
+msgid "By"
+msgstr ""
+
+#: ../lib/template-parts/blog-classic-fullwidth/single-nav.php:3
+#: ../lib/template-parts/blog-classic-sidebar/single-nav.php:3
+msgid "PREVIOUS POST"
+msgstr ""
+
+#: ../lib/template-parts/blog-classic-fullwidth/single-nav.php:6
+#: ../lib/template-parts/blog-classic-sidebar/single-nav.php:6
+msgid "NEXT POST"
+msgstr ""
+
+#: ../lib/template-parts/blog-classic-fullwidth/single-sharing.php:9
+#: ../lib/template-parts/blog-classic-sidebar/single-sharing.php:9
+#: ../lib/template-parts/portfolio/portfolio-single-sharing.php:9
+msgid "Share on Facebook"
+msgstr ""
+
+#: ../lib/template-parts/blog-classic-fullwidth/single-sharing.php:14
+#: ../lib/template-parts/blog-classic-sidebar/single-sharing.php:14
+#: ../lib/template-parts/portfolio/portfolio-single-sharing.php:14
+msgid "Share on Twitter"
+msgstr ""
+
+#: ../lib/template-parts/blog-classic-fullwidth/single-sharing.php:19
+#: ../lib/template-parts/blog-classic-sidebar/single-sharing.php:19
+#: ../lib/template-parts/portfolio/portfolio-single-sharing.php:19
+msgid "Share on Google+"
+msgstr ""
+
+#: ../lib/template-parts/blog-classic-fullwidth/single-sharing.php:24
+#: ../lib/template-parts/blog-classic-sidebar/single-sharing.php:24
+#: ../lib/template-parts/portfolio/portfolio-single-sharing.php:24
+msgid "Share on reddit"
+msgstr ""
+
+#: ../lib/template-parts/blog-classic-fullwidth/single-sharing.php:29
+#: ../lib/template-parts/blog-classic-sidebar/single-sharing.php:29
+#: ../lib/template-parts/portfolio/portfolio-single-sharing.php:29
+msgid "Share on Linkedin"
+msgstr ""
+
+#: ../lib/template-parts/blog-classic-fullwidth/single-sharing.php:34
+#: ../lib/template-parts/blog-classic-sidebar/single-sharing.php:34
+#: ../lib/template-parts/portfolio/portfolio-single-sharing.php:34
+msgid "Share on Email"
+msgstr ""
+
+#: ../lib/template-parts/blog-compact/blog-compact.php:24
+msgid "BY"
+msgstr ""
+
+#: ../lib/template-parts/blog-grid/blog-grid-2col.php:25
+#: ../lib/template-parts/blog-grid/blog-grid-3col.php:25
+#: ../lib/template-parts/blog-grid/blog-grid-4col.php:25
+#: ../lib/template-parts/blog-masonry/blog-masonry-2col.php:25
+#: ../lib/template-parts/blog-masonry/blog-masonry-3col.php:25
+#: ../lib/template-parts/blog-masonry/blog-masonry-4col.php:25
+#: ../lib/template-parts/blog-masonry/blog-masonry-mix-3col.php:40
+#: ../lib/template-parts/blog-masonry/blog-masonry-mix-4col.php:40
+msgid "comment"
+msgstr ""
+
+#: ../lib/template-parts/page-header.php:19
+msgid "Search for "
+msgstr ""
+
+#: ../lib/template-parts/page-header.php:23
+msgid "BLOG"
+msgstr ""
+
+#: ../lib/template-parts/portfolio/bk/portfolio-filterbar.php:11
+#: ../lib/template-parts/portfolio/portfolio-filterbar.php:16
+msgid "All"
+msgstr ""
+
+#: ../lib/template-parts/portfolio/portfolio-single-related-posts.php:33
+msgid "Most Recent Projects"
+msgstr ""
+
+#: ../lib/template-parts/portfolio/portfolio-single-two-third.php:32
+msgid "PROJECT INFO"
+msgstr ""
+
+#: ../lib/widgets/latest-portfolio.php:7
+msgid "Display your latest portfolio posts."
+msgstr ""
+
+#: ../lib/widgets/latest-portfolio.php:9
+msgid "Nivan : Latest Portfolio"
+msgstr ""
+
+#: ../lib/widgets/latest-portfolio.php:82
+msgid "Recent Portfolio"
+msgstr ""
