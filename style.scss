@@ -35,10 +35,14 @@
 @import 'css/fonts';
 
 $black-light: #585963;
+$black-lighter: lighten($black-light, 15%);
 $violet: #45233e;
+$violet-light: lighten($violet, 20%);
 $blau: #00a5dd;
 $blau-light: #80c6dd;
 $gray: #c4cdcd;
+$gray-light: #999;
+$gray-lighter: #ddd;
 $almost-white: #f4f4f5;
 $white: #ffffff;
 
@@ -58,7 +62,7 @@ body {
 	font-weight: normal;
 	font-style: normal;
 	line-height: 1;
-	background-color: $almost-white;
+	background: $almost-white!important;
 	color: #ffffff;
 	direction: ltr;
 	font-size: 100%;

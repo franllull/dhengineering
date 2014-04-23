@@ -5,6 +5,10 @@ Template Name: Blog - Masonry - 2 Columns
 ?>
 <?php get_header() ?>
 
+<div class="mainslider">
+	<?php putRevSlider( "main" ) ?>
+</div>
+
 <section class="section-content-container">
 	<div class="container">
 		<div class="row">

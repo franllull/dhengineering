@@ -1,4 +1,7 @@
 <?php get_header() ?>
+<div class="mainslider">
+	<?php putRevSlider( "main" ) ?>
+</div>
 
 <section class="section-content-container right-sidebar">
 	<div class="container">
@@ -10,7 +13,7 @@
 				<div class="section-content">
 					<div class="row">
 						<div class="col-sm-8">
-							
+
 							<div class="blog-container blog-normal">
 								<?php
 									$paged = get_query_var('paged') ? get_query_var('paged') : 1;

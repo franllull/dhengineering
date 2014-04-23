@@ -1,11 +1,69 @@
+@mixin trans {
+	-webkit-transition: opacity 0.3s ease-out;
+	-moz-transition: opacity 0.3s ease-out;
+	-ms-transition: opacity 0.3s ease-out;
+	-o-transition: opacity 0.3s ease-out;
+	transition: opacity 0.3s ease-out;
+}
+
+// type
+
+h1 {
+	font-size: 2em;
+	line-height: 1.5em;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+h2 {
+	font-size: 1.8em;
+	line-height: 1.5em;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+h3 {
+	font-size: 1.5em;
+	line-height: 1.7em;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+h4 {
+	font-size: 1.25em;
+	line-height: 1.2em;
+	margin-bottom: 15px;
+	font-weight: bold;
+}
+h5 {
+	font-size: 1.125em;
+	line-height: 1.2em;
+	margin-bottom: 15px;
+	font-weight: bold;
+}
+
+p {
+	font-size: 1.2em;
+	line-height: 1.4em;
+	margin-bottom: 1.6em;
+}
+
+
+// nav
+.main-header {
+	background: $violet;
+}
+
 .main-header .header {
 	padding: 10px 0;
 }
 
 .main-header .header nav {
-	padding: 30px 0;
+	padding: 25px 0;
 }
 
+.main-navigation, #search-form {display: inline-block; vertical-align: middle;}
+#search-form {
+	margin: 0 0 0 20px;
+	.search-box {border: none;}
+}
 
 .main-navigation a {
 	font-family: 'CorpidBold', helvetica, arial, sans-serif;
@@ -14,7 +72,19 @@
 }
 
 
+//mobile nav
+.ss-mobile-menu > ul > li a {
+	color: $white!important;
+	font-size: 1.3em;
+}
 
+.ss-mobile-menu-button {
+	&:hover {
+		color: $white!important;
+	}
+}
+
+// sliders
 .dh-slidetitle {
 	font-family: 'CorpidBlack', helvetica, arial, sans-serif;
 	font-size: 40px;
@@ -27,4 +97,114 @@
 	color: $white;
 	padding: 10px 20px 15px 20px;
 	line-height: 140%;
+}
+
+//main containers
+.section-header {padding-bottom: 30px;}
+
+.section-content-container, .page-content-container {
+	background: $almost-white;
+}
+
+//blog
+
+.single-post .section-header {display: none;}
+.single-post .section-content-container {background: $white;}
+
+
+.blog-item {
+	img {
+		@include trans;
+		&:hover {opacity: .8;}
+	}
+
+}
+.blog-item h3 a {
+	color: $violet;
+	&:hover {color: $violet-light;}
+}
+
+.blog-item-content {
+	background: $white;
+	border-bottom: 3px solid lighten($gray, 10%);
+	color: $black-lighter;
+	.moretag {
+	color: $blau!important;
+	&:hover {color: $blau-light!important; text-decoration: underline;}
+	}
+}
+.blog-container.grid .blog-item-content > h3,
+.blog-container.masonry .blog-item-content > h3 {
+    font-size: 1.6em;
+    line-height: 1.2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.blog-item .blog-item-content .blog-item-meta {
+	border-top: 1px solid $gray-lighter;
+	padding-top: 10px;
+	font-size: 1em;
+	span {
+		color: $gray-light;
+		font-weight: normal; 
+		font-size: 85%; 
+		font-family: "CorpidRegularItalic", helvetica;
+		a {
+			font-family: "CorpidBold", helvetica; 
+			color: $violet;
+			&:hover {text-decoration: underline; color: $violet-light; }}
+	}
+}
+
+.main-footer {
+	background: $violet;
+	.widget {
+		a {
+			color: $almost-white!important;
+			@include trans;
+			&:hover {opacity: 0.7;}
+		}
+		h5 {
+			color: $white;
+			margin-bottom: 2em;
+		}
+		.contact-details {
+			li {
+				margin-bottom: 20px;
+				a {
+					line-height: 120%;
+					span {
+						font-size: 20px; 
+						color: $almost-white; 
+						float: left; 
+						padding-right: 10px; 
+						vertical-align: middle;
+					}
+				}
+			}
+		}
+
+		.social-nets {
+			li {display: inline-block; margin-right: 10px;}
+			span {
+				font-size: 30px;
+				color: $almost-white;
+			}
+		}
+	}
+	.copy {
+		color: $gray-light;
+		opacity: .8;
+		ul, li {margin: 0; padding: 0;}
+		li {display: inline-block; margin-right: 20px;}
+		a {
+			color: $gray-light;
+			&:hover {color: $gray-lighter;}
+		}
+	}
+}
+
+@media screen and (max-width: 768px) {
+body {font-size: 70%;}
 }
