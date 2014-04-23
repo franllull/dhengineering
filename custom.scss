@@ -124,7 +124,7 @@ p {
 	&:hover {color: $violet-light;}
 }
 
-.blog-item-content {
+.home .blog-item-content {
 	background: $white;
 	border-bottom: 3px solid lighten($gray, 10%);
 	color: $black-lighter;
@@ -138,7 +138,13 @@ p {
     font-size: 1.6em;
     line-height: 1.2em;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
+}
+
+.blog-container.grid .blog-item-content > .by,
+.blog-container.masonry .blog-item-content > .by {
+	margin-bottom: 20px;
+	display: block;
 }
 
 .blog-item .blog-item-content .blog-item-meta {
@@ -154,6 +160,23 @@ p {
 			font-family: "CorpidBold", helvetica; 
 			color: $violet;
 			&:hover {text-decoration: underline; color: $violet-light; }}
+	}
+	.cats {
+		a {
+			background: $violet;
+			color: $white;
+			padding: 6px;
+			&:after {
+				content: ' ';
+				left: 160px;
+				position: absolute;
+				width: 0;height: 0; top: 0; bottom: 0;
+				border-top: 9px solid rgba(0, 0, 0, 0);
+				border-bottom: 9px solid rgba(0, 0, 0, 0);
+				border-left: 5px solid rgba(0, 0, 0, 0);
+				margin: auto;
+			}
+		}
 	}
 }
 

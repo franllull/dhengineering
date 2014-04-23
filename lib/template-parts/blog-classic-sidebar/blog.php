@@ -12,6 +12,6 @@
 	<?php endif; ?>
 	<div class="blog-item-content">
 		<div class="blog-item-desc ss-typography">
-			<?php the_content(''); ?>
+			 <?php the_excerpt(); ?>
 		</div>
 <?php get_template_part( 'lib/template-parts/blog-classic-sidebar/blog', 'footer' ); ?>
