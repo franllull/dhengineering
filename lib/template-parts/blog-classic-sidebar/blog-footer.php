@@ -6,7 +6,6 @@
 					$target = 'target="_blank"';
 				}
 		?>
-			<a class="more-link" <?php echo $target; ?> href="<?php the_permalink(); ?>"><?php _e("READ MORE", "spnoy") ?></a>
 		<?php endif; ?>
 	</div>
 </article>

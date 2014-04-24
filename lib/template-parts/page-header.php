@@ -15,6 +15,7 @@
 		$page_title = $archive_title ;
 		$page_header = 1;
 	}
+	
 	if ( is_search() ) {
 		$page_title = __("Search for ", "spnoy") . '&#8216;' . get_search_query() . '&#8217;' ;
 		$page_header = 1;
@@ -33,7 +34,7 @@
 
 <?php if ( !empty($page_header) ) : ?>
 
-	<div class="section-header">
+	<div class="section-header row">
 		<div class="section-header-inner">
 			<div class="section-heading-left-line <?php echo $effect_class; ?> " <?php echo $left_line_effect; ?> ></div>
 			<h1 class="section-heading <?php echo $effect_class; ?> " <?php echo $title_effect; ?> >
@@ -41,6 +42,7 @@
 			</h1>
 			<div class="section-heading-right-line <?php echo $effect_class; ?> " <?php echo $right_line_effect; ?> ></div>
 		</div>
+		<div class="author-descritpion col-sm-6 col-md-offset-3"><?php the_author_description(); ?></div>
 	</div>
 
 <?php endif; ?>

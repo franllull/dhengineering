@@ -11,7 +11,7 @@ h3 {font-size: 1.5em;line-height: 1.7em;}
 h4 {font-size: 1.25em;line-height: 1.2em;}
 h5 {font-size: 1.125em;line-height: 1.2em;}
 
-p {font-size: 1.3em; line-height: 1.4em; margin-bottom: 1.6em;}
+p {font-size: 1.1em!important; line-height: 1.4em!important; margin-bottom: 1.6em;}
 
 code {background: transparent;}
 
@@ -57,9 +57,11 @@ code {background: transparent;}
 .home .blog-item-content {
 	background: $white; //white box effect
 	border-bottom: 3px solid lighten($gray, 10%);
-	color: $black-lighter; 
 	.by {margin-bottom: 20px; display: block; a {@include link-behaviour($violet, $violet-light);}} //by author
-	.moretag {@include link-behaviour($blau, $blau-light);} //more button
+}
+
+.blog-item-content {
+	color: $black-lighter; 
 }
 
 .blog-container.grid .blog-item-content > h3, .blog-container.masonry .blog-item-content > h3 {
@@ -112,11 +114,12 @@ code {background: transparent;}
 .entry-nav {display: none;} //post nav raus
 code {white-space: pre-wrap!important;} //code lines don't have to break the responsive
 .nivan-button {color: $white!important;}
+.blog-container .blog-item .blog-item-content .more-link {@include link-behaviour($blau, $blau-light);} //more button
 
 .blog-container.blog-single .blog-item > h2 { font-size: 2.4em; line-height: 100%; font-family: "CorpidLight" } //title styles specific target
 .blog-single .blog-item-content {
 	h1, h2, h3, h4, h5 {color: $black-light; font-family: "CorpidLight", helvetica; line-height: 120%;}
-	p {color: $black-lighter;}
+	p, div {color: $black-lighter;}
 	.blog-item-content {
 		a {@include link-behaviour($blau, $blau-light); &:hover{text-decoration: underline!important;}} //forcing links to look like a link
 	}
@@ -184,8 +187,24 @@ code {white-space: pre-wrap!important;} //code lines don't have to break the res
 /*	Archive
 /*---------------------------------------------------------------------------------*/
 .archive {
-	.section-content-container {background: $almost-white!important;}
-	.blog-container article {background: $white; padding: 20px!important;}
+	.section-content-container {background: $almost-white!important;} //white box again
+}
+
+.author .section-header {
+	.section-header-inner {
+		margin-bottom: 30px;
+	}
+	span {
+		img {border-radius: 180px; margin-right: 20px;}
+	}
+}
+
+.section-header {
+	.author-descritpion {
+		color: $black-lighter;
+		line-height: 120%;
+		text-align: center;
+	}
 }
 
 .blog-container.blog-normal .blog-item > h2 {
@@ -199,6 +218,39 @@ code {white-space: pre-wrap!important;} //code lines don't have to break the res
 		&:hover {text-decoration: none;}			
 	}
 }
+
+.blog-container.blog-normal .blog-item .blog-item-content {
+	padding:0 0 20px;
+}
+
+
+.archive article {
+	background: $white; //white box effect
+	padding: 20px!important;
+	border-bottom: 3px solid lighten($gray, 10%);
+	.by {margin-bottom: 20px; display: block; a {@include link-behaviour($violet, $violet-light);}} //by author
+
+	h3 {
+		font-size: 1.8em; //overriding styles main title with specific target
+		font-family: "CorpidLight", helvetica;
+		line-height: 1.2em;
+		font-weight: normal;
+		margin-bottom: 5px;
+		a {
+			@include link-behaviour($violet, $violet-light); //overriding main title link
+			&:hover {text-decoration: none;}			
+		}
+
+	}
+	.blog-item-desc {margin: 0!important;}
+	.blog-item-meta {font-size: 100%!important;}
+}
+
+.blog-container.blog-single .blog-item .blog-item-meta {font-size: 100%!important;}
+.blog-container.blog-normal .blog-item .blog-item-meta a {display: inline!important;}
+
+
+
 
 
 /*---------------------------------------------------------------------------------*/

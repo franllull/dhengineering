@@ -19,7 +19,7 @@
 					} elseif ( is_year() ) {
 						$archive_title .= get_the_time( get_option('date_format') );
 					} elseif ( is_author() ) {
-						$archive_title .= get_the_author() . get_avatar( get_the_author_meta( 'ID' ), 50 );
+						$archive_title .= get_avatar( get_the_author_meta( 'ID' ), 100 ) . get_the_author();
 					} elseif ( is_tax( 'portfolio-category' ) ) {
 						$archive_title .= __("Portfolio Category", 'spnoy');
 					} elseif ( is_tax( 'portfolio-tags' ) ) {
@@ -33,8 +33,7 @@
 
 				<div class="section-content">
 					<div class="row">
-
-						<div class="col-sm-8">
+						<div class="col-sm-8 col-md-offset-2">
 							<div class="blog-container blog-normal">
 
 								<?php if ( have_posts() ) : while ( have_posts() ) :  the_post(); ?>
@@ -56,8 +55,6 @@
 							<?php ss_pagination(); ?>
 
 						</div>
-
-						<?php get_sidebar(); ?>
 						
 					</div>
 				</div>
