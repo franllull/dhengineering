@@ -41,11 +41,6 @@
 			</h1>
 			<div class="section-heading-right-line <?php echo $effect_class; ?> " <?php echo $right_line_effect; ?> ></div>
 		</div>
-		<?php if ( !empty($breadcrumbs_switch) ) : ?>
-			<div class="theme-breadcrumbs-container">
-				<?php ss_breadcrumbs(); ?>
-			</div>
-		<?php endif; ?>
 	</div>
 
 <?php endif; ?>

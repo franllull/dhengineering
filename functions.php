@@ -16,13 +16,6 @@ require_once "lib/functions/functions-loader.php";
 /*
 /*-----------------------------------------------------------------------------------*/
 
-// Replaces the excerpt "more" text by a link
-function new_excerpt_more($more) {
-       global $post;
-	return '<br /><a class="moretag" href="'. get_permalink($post->ID) . '"> Read on...</a>';
-}
-add_filter('excerpt_more', 'new_excerpt_more');
-
 
 //registering underfoot
 function register_my_menu() {

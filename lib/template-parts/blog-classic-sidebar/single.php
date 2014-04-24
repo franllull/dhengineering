@@ -4,6 +4,7 @@
 			<?php the_post_thumbnail('general-size'); ?>
 		</figure>
 	<?php endif; ?>
+	
 	<div class="blog-item-content">
 		<div class="entry-item-desc ss-typography">
 			<?php the_content(); ?>
