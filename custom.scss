@@ -11,7 +11,9 @@ h3 {font-size: 1.5em;line-height: 1.7em;}
 h4 {font-size: 1.25em;line-height: 1.2em;}
 h5 {font-size: 1.125em;line-height: 1.2em;}
 
-p {font-size: 1.2em; line-height: 1.4em; margin-bottom: 1.6em;}
+p {font-size: 1.3em; line-height: 1.4em; margin-bottom: 1.6em;}
+
+code {background: transparent;}
 
 /*---------------------------------------------------------------------------------*/
 /*	Navigation
@@ -60,11 +62,11 @@ p {font-size: 1.2em; line-height: 1.4em; margin-bottom: 1.6em;}
 	.moretag {@include link-behaviour($blau, $blau-light);} //more button
 }
 
-
 .blog-container.grid .blog-item-content > h3, .blog-container.masonry .blog-item-content > h3 {
-	font-size: 1.6em; //overriding styles main title with specific target
+	font-size: 1.8em; //overriding styles main title with specific target
+	font-family: "CorpidLight", helvetica;
 	line-height: 1.2em;
-	font-weight: bold;
+	font-weight: normal;
 	margin-bottom: 5px;
 	a {
 		@include link-behaviour($violet, $violet-light); //overriding main title link
@@ -105,13 +107,99 @@ p {font-size: 1.2em; line-height: 1.4em; margin-bottom: 1.6em;}
 /*---------------------------------------------------------------------------------*/
 /*	Single Blog
 /*---------------------------------------------------------------------------------*/
+.section-content-container, .page-content-container {padding: 90px 0; border-bottom: 1px solid #CCC;} //overriding top margin
+.theme-breadcrumbs {display: none;} //breadcrumbs raus
+.entry-nav {display: none;} //post nav raus
+code {white-space: pre-wrap!important;} //code lines don't have to break the responsive
+.nivan-button {color: $white!important;}
 
-.blog-container.blog-single .blog-item > h2 { font-size: 2.5em; line-height: 120%; } //title styles specific target
-.blog-single {
+.blog-container.blog-single .blog-item > h2 { font-size: 2.4em; line-height: 100%; font-family: "CorpidLight" } //title styles specific target
+.blog-single .blog-item-content {
+	h1, h2, h3, h4, h5 {color: $black-light; font-family: "CorpidLight", helvetica; line-height: 120%;}
+	p {color: $black-lighter;}
 	.blog-item-content {
-		a {@include link-behaviour($blau, $blau-light);} //forcing links to look like a link
+		a {@include link-behaviour($blau, $blau-light); &:hover{text-decoration: underline!important;}} //forcing links to look like a link
 	}
 }
+
+.blog-single {
+	.blog-item {border-bottom: 1px solid $gray-lighter;}
+	.blog-item-meta {
+		color: $black-lighter;
+		padding: 10px 0;
+		span {
+			font-weight: normal!important;  //override wrong font
+			a {@include link-behaviour($violet, $violet-light);}
+		}
+		.meta-space {
+			margin-bottom: 20px;
+			img {margin-right: 10px; border-radius: 180px;}
+			a, span {line-height: 50px;}
+		}
+		.cat {
+			text-align: right;
+			display: inline-block; //categories violet box
+			li {display: inline-block;}
+			a {
+				background: $violet;
+				color: $white;
+				padding: 0.4em;
+				margin-right: 5px;
+				@include trans;
+				&:hover {color: $almost-white; background: $violet-light; border-color: transparent transparent transparent $violet-light;}
+			}
+		}
+	}
+}
+
+.comments-list {
+	margin-bottom: 50px;
+	.avatar-border { img {border-radius: 180px;} }
+	.comment-body p {font-size: 1em;}
+}
+
+.comment-respond {
+	.logged-in-as, .comment-reply-title {margin: 0!important;}
+
+	.comment-form #comment-text textarea {
+		font-weight: normal;
+		outline: 0;
+		color: $black-light;
+		&:focus {
+			border: 1px solid $gray-light;
+		}
+	}
+	.form-submit {
+		input {
+			color: $white!important;
+			@include trans;
+			&:hover {
+				background: $violet-light!important;
+				color: $almost-white!important;
+			}
+		}
+	}
+}
+/*---------------------------------------------------------------------------------*/
+/*	Archive
+/*---------------------------------------------------------------------------------*/
+.archive {
+	.section-content-container {background: $almost-white!important;}
+	.blog-container article {background: $white; padding: 20px!important;}
+}
+
+.blog-container.blog-normal .blog-item > h2 {
+	font-size: 1.8em; //overriding styles main title with specific target
+	font-family: "CorpidLight", helvetica;
+	line-height: 1.2em;
+	font-weight: normal;
+	margin-bottom: 5px;
+	a {
+		@include link-behaviour($violet, $violet-light); //overriding main title link
+		&:hover {text-decoration: none;}			
+	}
+}
+
 
 /*---------------------------------------------------------------------------------*/
 /*	Footer
@@ -165,8 +253,23 @@ p {font-size: 1.2em; line-height: 1.4em; margin-bottom: 1.6em;}
 }
 
 /*---------------------------------------------------------------------------------*/
+/*	Aside
+/*---------------------------------------------------------------------------------*/
+aside {
+	.widget_nav_menu {
+		background: $almost-white;
+		padding: 20px;
+		h3 {margin-bottom: 20px;}
+		li a {@include link-behaviour($blau, $blau-light); display: block; margin-bottom: 10px;}
+	}
+}
+
+
+/*---------------------------------------------------------------------------------*/
 /*	Media Qs
 /*---------------------------------------------------------------------------------*/
 @media screen and (max-width: 768px) {
-body {font-size: 70%;}
+body {font-size: 90%;}
+.section-content-container, .page-content-container {padding: 30px 0; } //overriding top margin
+
 }

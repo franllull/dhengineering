@@ -9,21 +9,21 @@
 					$archive_title = '';
 
 					if ( is_category() ) {
-						$archive_title .= __('Archive for ', 'spnoy') . '&#8216;' . single_cat_title( '', false) . '&#8217;';
+						$archive_title .= single_cat_title( '', false);
 					} elseif ( is_tag() ) {
-						$archive_title .= __('Posts Tagged ', 'spnoy') . '&#8216;' . single_tag_title( '', false) . '&#8217;';
+						$archive_title .= __('Posts Tagged ', 'spnoy') . single_tag_title( '', false);
 					} elseif ( is_day() ) {
-						$archive_title .= __('Archive for ', 'spnoy') . '&#8216;' . get_the_time( get_option('date_format') ) . '&#8217;';
+						$archive_title .= get_the_time( get_option('date_format') );
 					} elseif ( is_month() ) {
-						$archive_title .= __('Archive for ', 'spnoy') . '&#8216;' . get_the_time( get_option('date_format') ) . '&#8217;';
+						$archive_title .= get_the_time( get_option('date_format') );
 					} elseif ( is_year() ) {
-						$archive_title .= __('Archive for ', 'spnoy') . '&#8216;' . get_the_time( get_option('date_format') ) . '&#8217;';
+						$archive_title .= get_the_time( get_option('date_format') );
 					} elseif ( is_author() ) {
-						$archive_title .= __('Author Archive', 'spnoy');
+						$archive_title .= get_the_author() . get_avatar( get_the_author_meta( 'ID' ), 50 );
 					} elseif ( is_tax( 'portfolio-category' ) ) {
-						$archive_title .= __('Archive for ', 'spnoy') . '&#8216;' . __("Portfolio Category", 'spnoy') . '&#8217;';
+						$archive_title .= __("Portfolio Category", 'spnoy');
 					} elseif ( is_tax( 'portfolio-tags' ) ) {
-						$archive_title .= __('Archive for ', 'spnoy') . '&#8216;' . __("Portfolio Tags", 'spnoy') . '&#8217;';
+						$archive_title .= __("Portfolio Tags", 'spnoy');
 					} elseif ( isset($_GET['paged']) && !empty($_GET['paged']) ) {
 						$archive_title .= __('Blog Archives', 'spnoy');
 					}

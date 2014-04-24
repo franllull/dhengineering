@@ -1,4 +1,13 @@
 @font-face {
+	font-family: "CorpidLight";
+	src: url("fonts/CorpidC1-Light.eot");
+	src: url("fonts/CorpidC1-Light.eot?#iefix") format("embedded-opentype"),
+	url("fonts/CorpidC1-Light.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
 	font-family: "CorpidRegular";
 	src: url("fonts/CorpidC1-Regular.eot");
 	src: url("fonts/CorpidC1-Regular.eot?#iefix") format("embedded-opentype"),
