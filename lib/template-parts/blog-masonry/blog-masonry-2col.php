@@ -18,13 +18,12 @@
 	<?php endif; ?>
     <div class="blog-item-content">
         <h3><a <?php echo $target; ?> href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+        <span class="by"> by <?php the_author_posts_link(); ?> </span>
         <div class="blog-item-desc">
 	       <?php the_excerpt(); ?>
         </div>
         <div class="blog-item-meta">
-          <span><?php comments_popup_link( '0', '1', '%', '', '-' ); ?> <?php _e("comment", "spnoy"); ?></span>
-          <span class="sep">|</span>
-	        <span class="meta-date"><?php the_time( get_option('date_format') ); ?></span>
+	<span class="cat"><?php the_category('');?></span><span class="meta-date"><?php the_time('F Y') ?> </span>
         </div>
     </div>
 </article>
