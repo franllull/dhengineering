@@ -1,90 +1,41 @@
-@mixin trans {
-	-webkit-transition: opacity 0.3s ease-out;
-	-moz-transition: opacity 0.3s ease-out;
-	-ms-transition: opacity 0.3s ease-out;
-	-o-transition: opacity 0.3s ease-out;
-	transition: opacity 0.3s ease-out;
-}
+@import 'css/mixins';
 
-// type
+/*---------------------------------------------------------------------------------*/
+/*	Type
+/*---------------------------------------------------------------------------------*/
+h1, h2, h3, h4, h5 {font-weight: bold;margin-bottom: 10px;}
 
-h1 {
-	font-size: 2em;
-	line-height: 1.5em;
-	margin-bottom: 10px;
-	font-weight: bold;
-}
-h2 {
-	font-size: 1.8em;
-	line-height: 1.5em;
-	margin-bottom: 10px;
-	font-weight: bold;
-}
-h3 {
-	font-size: 1.5em;
-	line-height: 1.7em;
-	margin-bottom: 10px;
-	font-weight: bold;
-}
-h4 {
-	font-size: 1.25em;
-	line-height: 1.2em;
-	margin-bottom: 15px;
-	font-weight: bold;
-}
-h5 {
-	font-size: 1.125em;
-	line-height: 1.2em;
-	margin-bottom: 15px;
-	font-weight: bold;
-}
+h1 {font-size: 2em; line-height: 1.5em;}
+h2 {font-size: 1.8em;line-height: 1.5em;}
+h3 {font-size: 1.5em;line-height: 1.7em;}
+h4 {font-size: 1.25em;line-height: 1.2em;}
+h5 {font-size: 1.125em;line-height: 1.2em;}
 
-p {
-	font-size: 1.2em;
-	line-height: 1.4em;
-	margin-bottom: 1.6em;
-}
+p {font-size: 1.2em; line-height: 1.4em; margin-bottom: 1.6em;}
 
+/*---------------------------------------------------------------------------------*/
+/*	Navigation
+/*---------------------------------------------------------------------------------*/
+.main-header {background: $violet;}
+.main-header .header {padding: 10px 0;} //fixing logo height 
+.main-header .header nav {padding: 25px 0;}
+.main-navigation a {font-family: 'CorpidBold', helvetica, arial, sans-serif; font-size: 1.2em; text-transform: uppercase!important;}
 
-// nav
-.main-header {
-	background: $violet;
-}
-
-.main-header .header {
-	padding: 10px 0;
-}
-
-.main-header .header nav {
-	padding: 25px 0;
-}
-
-.main-navigation, #search-form {display: inline-block; vertical-align: middle;}
-#search-form {
-	margin: 0 0 0 20px;
-	.search-box {border: none;}
-}
-
-.main-navigation a {
-	font-family: 'CorpidBold', helvetica, arial, sans-serif;
-	font-size: 15px;
-	text-transform: uppercase!important;
-}
-
-
-//mobile nav
+/*---------------------------------------------------------------------------------*/
+/*	Mobile Menu
+/*---------------------------------------------------------------------------------*/
 .ss-mobile-menu > ul > li a {
 	color: $white!important;
 	font-size: 1.3em;
 }
 
 .ss-mobile-menu-button {
-	&:hover {
-		color: $white!important;
-	}
+	&:hover {color: $white!important;}
 }
 
-// sliders
+/*---------------------------------------------------------------------------------*/
+/*	Slider styles
+/*---------------------------------------------------------------------------------*/
 .dh-slidetitle {
 	font-family: 'CorpidBlack', helvetica, arial, sans-serif;
 	font-size: 40px;
@@ -92,100 +43,85 @@ p {
 	padding: 10px 20px 15px 20px;
 	background: $violet;
 }
+.dh-slidetext {color: $white; padding: 10px 20px 15px 20px; line-height: 140%;}
 
-.dh-slidetext {
-	color: $white;
-	padding: 10px 20px 15px 20px;
-	line-height: 140%;
-}
+/*---------------------------------------------------------------------------------*/
+/*	Home Blog
+/*---------------------------------------------------------------------------------*/
+.single-post .section-header {display: none;} //hiding header and breadcrumbs from single post
 
-//main containers
-.section-header {padding-bottom: 30px;}
-
-.section-content-container, .page-content-container {
-	background: $almost-white;
-}
-
-//blog
-
-.single-post .section-header {display: none;}
-.single-post .section-content-container {background: $white;}
-
-
-.blog-item {
-	img {
-		@include trans;
-		&:hover {opacity: .8;}
-	}
-
-}
-.blog-item h3 a {
-	color: $violet;
-	&:hover {color: $violet-light;}
-}
+.home .section-content-container, .page-content-container {background: $almost-white;} //white box effect background
 
 .home .blog-item-content {
-	background: $white;
+	background: $white; //white box effect
 	border-bottom: 3px solid lighten($gray, 10%);
-	color: $black-lighter;
-	.moretag {
-	color: $blau!important;
-	&:hover {color: $blau-light!important; text-decoration: underline;}
-	}
-}
-.blog-container.grid .blog-item-content > h3,
-.blog-container.masonry .blog-item-content > h3 {
-    font-size: 1.6em;
-    line-height: 1.2em;
-    font-weight: bold;
-    margin-bottom: 5px;
+	color: $black-lighter; 
+	.by {margin-bottom: 20px; display: block; a {@include link-behaviour($violet, $violet-light);}} //by author
+	.moretag {@include link-behaviour($blau, $blau-light);} //more button
 }
 
-.blog-container.grid .blog-item-content > .by,
-.blog-container.masonry .blog-item-content > .by {
-	margin-bottom: 20px;
-	display: block;
+
+.blog-container.grid .blog-item-content > h3, .blog-container.masonry .blog-item-content > h3 {
+	font-size: 1.6em; //overriding styles main title with specific target
+	line-height: 1.2em;
+	font-weight: bold;
+	margin-bottom: 5px;
+	a {
+		@include link-behaviour($violet, $violet-light); //overriding main title link
+		&:hover {text-decoration: none;}			
+	}
 }
 
-.blog-item .blog-item-content .blog-item-meta {
-	border-top: 1px solid $gray-lighter;
-	padding-top: 10px;
-	font-size: 1em;
-	span {
-		color: $gray-light;
-		font-weight: normal; 
-		font-size: 85%; 
-		font-family: "CorpidRegularItalic", helvetica;
-		a {
-			font-family: "CorpidBold", helvetica; 
-			color: $violet;
-			&:hover {text-decoration: underline; color: $violet-light; }}
-	}
-	.cats {
-		a {
-			background: $violet;
-			color: $white;
-			padding: 6px;
-			&:after {
-				content: ' ';
-				left: 160px;
-				position: absolute;
-				width: 0;height: 0; top: 0; bottom: 0;
-				border-top: 9px solid rgba(0, 0, 0, 0);
-				border-bottom: 9px solid rgba(0, 0, 0, 0);
-				border-left: 5px solid rgba(0, 0, 0, 0);
-				margin: auto;
+.blog-item {
+	img { @include transop; &:hover {opacity: .8;} } //creting opacity effect on images
+
+	.blog-item-content .blog-item-meta {
+		border-top: 1px solid $gray-lighter; //meta styles (categories and date)
+		padding-top: 15px;
+		font-size: 1em;
+		span {
+			color: $gray-light;
+			font-weight: normal; 
+			font-size: 85%; 
+			font-family: "CorpidRegularItalic", helvetica;
+			a { font-family: "CorpidBold", helvetica;  @include link-behaviour($violet, $violet-light); }
+		}
+		.cat {
+			display: inline-block; //categories violet box
+			li {display: inline-block;}
+			a {
+				background: $violet;
+				color: $white;
+				padding: 0.4em;
+				margin-right: 5px;
+				@include trans;
+				&:hover {color: $almost-white; background: $violet-light; border-color: transparent transparent transparent $violet-light;}
 			}
 		}
+		.meta-date {float: right;} //floating date
 	}
 }
 
+/*---------------------------------------------------------------------------------*/
+/*	Single Blog
+/*---------------------------------------------------------------------------------*/
+
+.blog-container.blog-single .blog-item > h2 { font-size: 2.5em; line-height: 120%; } //title styles specific target
+.blog-single {
+	.blog-item-content {
+		a {@include link-behaviour($blau, $blau-light);} //forcing links to look like a link
+	}
+}
+
+/*---------------------------------------------------------------------------------*/
+/*	Footer
+/*---------------------------------------------------------------------------------*/
 .main-footer {
 	background: $violet;
 	.widget {
 		a {
 			color: $almost-white!important;
-			@include trans;
+			@include transop;
 			&:hover {opacity: 0.7;}
 		}
 		h5 {
@@ -228,6 +164,9 @@ p {
 	}
 }
 
+/*---------------------------------------------------------------------------------*/
+/*	Media Qs
+/*---------------------------------------------------------------------------------*/
 @media screen and (max-width: 768px) {
 body {font-size: 70%;}
 }
