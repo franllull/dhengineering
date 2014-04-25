@@ -2779,13 +2779,14 @@ code {
       text-decoration: none; }
 
 .blog-container.blog-normal .blog-item .blog-item-content {
-  padding: 0 0 20px; }
+  padding: 0 0 0px; }
 
 .archive article {
   background: white;
   padding: 20px !important;
-  border-bottom: 3px solid #e0e4e4; }
+  border-bottom: 3px solid #e0e4e4 !important; }
   .archive article .by {
+    color: #7d7e8b;
     margin-bottom: 20px;
     display: block; }
     .archive article .by a {

@@ -220,15 +220,16 @@ code {white-space: pre-wrap!important;} //code lines don't have to break the res
 }
 
 .blog-container.blog-normal .blog-item .blog-item-content {
-	padding:0 0 20px;
+	padding:0 0 0px;
 }
 
 
-.archive article {
+.archive {
+	article {
 	background: $white; //white box effect
 	padding: 20px!important;
-	border-bottom: 3px solid lighten($gray, 10%);
-	.by {margin-bottom: 20px; display: block; a {@include link-behaviour($violet, $violet-light);}} //by author
+	border-bottom: 3px solid lighten($gray, 10%)!important;
+	.by {color: $black-lighter; margin-bottom: 20px; display: block; a {@include link-behaviour($violet, $violet-light);}} //by author
 
 	h3 {
 		font-size: 1.8em; //overriding styles main title with specific target
@@ -244,6 +245,7 @@ code {white-space: pre-wrap!important;} //code lines don't have to break the res
 	}
 	.blog-item-desc {margin: 0!important;}
 	.blog-item-meta {font-size: 100%!important;}
+	}
 }
 
 .blog-container.blog-single .blog-item .blog-item-meta {font-size: 100%!important;}
